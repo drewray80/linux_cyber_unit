@@ -10,19 +10,21 @@ This repro is a general discription of that unit.
 - Linux Basics and Nano (details in linux_basics_nano.md)
 - Website Hosting and SSH (details in hosting_ssh.md)
 - Terminus (links in terminus directory)
-- <a href="https://tryhackme.com/" target="_blank">TryHackMe.com</a>
-<!--- [TryHackMe](https://tryhackme.com)-->
+- TryHackMe  [tryhackme.com](https://tryhackme.com)
 
 ## Hardware
 Teachers often make the most of the equipment that is available to them.  
+This is the equipment that I use. 
+If you ave different equipment, I hope you will be able to adapt these instructions to suit your needs.
+
 For these specific instructions, I use:
 - Raspberry Pis
 - MicroSD Cards
 - The monitor, keyboard and mouse from my lab desktops
 - An old home internet router (for web hosting and ssh section)
-If you ave different equipment, I hope you will be able to adapt these instructions to suit your needs.
 
-### Raspberry Pi [raspberrypi.org](https://www.raspberrypi.org)
+
+### Raspberry Pi  [raspberrypi.org](https://www.raspberrypi.org)
 I use Raspberry Pis for this unit, but any linux desktop should work.  
 My predecessor had a class set of Raspberry Pi 3B+. Those are fine and are pis that are in the pictures.
 I have upgraded to RP 5 and the 5s are significantly faster making them easier to use.
@@ -54,14 +56,16 @@ The purpose of this section is to provide an opportunity for learners to:
 Details for this section are in hosting_ssh.md
 The purpose of this section is to provide an opportunity for learners to:
 - learn about servers and clients through locally hosting a website
-- 
-- and its fun for them to make a simple site that their classmates can pull up on their pi
+- learn about IP address (IPv4, IPv6, DNS, static IP addresses...)
+- experience headless access to a linux terminal through ssh
+- run a single python http server and see the traffic coming to their website/server
+- also it's fun for them to make a simple site that their classmates can pull up on their pi
 
 ## Terminus 
 In the terminus directory is a file terminus.md, that has additional information.
 The directory also has files with directions for this activity.
 
-## TryHackMe
+## TryHackMe  [tryhackme.com](https://tryhackme.com) 
 TryHackMe is great resource for learning about cyber security.
 
 ### Instruction  
