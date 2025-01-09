@@ -62,6 +62,25 @@ In the terminus directory is a file terminus.md that has additional information.
 The directory also has files with directions for this activity.
 
 ## TryHackMe
+TryHackMe is great resource for learning about cyber security.
+
+### Instruction  
+The presentation of the website is user freindly and visually appealing.
+They provide instruction sections that are clear and approachable for beginners. 
+They offer learning paths that can help learners align their learning with their goals.
+
+### Virtual Machines  
+The challenges provide hands on learning using virtual machines (VMs) with linux and Windows machines allowing learners to experience both sides of attacks and defense.  
+These activities are very realistic and very engaging for students.  
+Since my students have gained some linux experience, they are able to confidently jump into these activities.  
+
+### Cost  
+To provide this level of quality, TryHackMe does have a pay level and a free level.
+The free level is limited on use time per day and access to some lessons.  
+I just use the free level, since the course that I teach is not cyber security.  
+
+If I taught cyber security with upper level students, I would strongly consider getting the paid level.    
+It is very expensive, but the quality is much better than any other education platform for cyber that I have used. 
 
 
 
