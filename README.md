@@ -9,7 +9,7 @@ This repro is a general discription of that unit.
 - Hardware 
 - Linux Basics and Nano (details in [linux_basics_nano.md](../linux_basics_nano.md))
 - Website Hosting and SSH (details in hosting_ssh.md)
-- Terminus (links in [terminus directory](../terminus))
+- Terminus (links in [terminus directory](../linux_cyber_unit/terminus))
 - <a href="https://tryhackme.com/" target="_blank">TryHackMe.com</a>
 <!--- [TryHackMe](https://tryhackme.com)-->
 
@@ -58,7 +58,7 @@ The purpose of this section is to provide an opportunity for learners to:
 - and its fun for them to make a simple site that their classmates can pull up on their pi
 
 ## Terminus 
-In the terminus directory is a file [terminus.md](../terminus/terminus.med) that has additional information.
+In the terminus directory is a file [terminus.md](../linux_cyber_unit/terminus/terminus.md) that has additional information.
 The directory also has files with directions for this activity.
 
 ## TryHackMe
