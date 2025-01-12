@@ -59,7 +59,7 @@ This lets them see that the new file is visiable in terminal as well.
 
 ![basics 5](img/basics/basic5.png)
 
-
+[Back to Outline](#outline)
 ## Create a Directory 
 create directory and text file on desktop
 
