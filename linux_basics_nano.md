@@ -13,7 +13,7 @@ The purpose of this section is to provide an opportunity for learners to:
 - [intro to nano](#intro-to-nano)
 - [edit text file in nano](#edit-text-file-in-nano) and save changes 
 - [create a python file](#create-a-python-file)
-- [edit python file in nano](#edit-python-file-i-nano)
+- [edit python file in nano](#edit-python-file-in-nano)
 - [run the python program from the terminal](#run-python-program-from-terminal)
 
 ## Raspberry Pi Setup
