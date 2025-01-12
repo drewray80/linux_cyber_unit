@@ -104,23 +104,39 @@ After saving, we click on the text file again.  It gives us a pop up that someth
 
 We click Reload, and can see our changes.
 
-![nano_6](img/nano/nano6.png)
-
 [Back to Outline](#outline)
 ## Create a Python File
-create a python file
+Now that the students have created and edited a text file, I have them create, edit and run a simple python program.
+
+First, we use touch to create the .py file.
+Then, open the file in nano.
 
 ![nano_7](img/nano/nano7.png)
 
 [Back to Outline](#outline)
 ## Edit Python File in Nano
-edit python file in nano
+Similar to the text file, we add lines for code then save the code using Control+O ('Write Out')
+I use very simple python code for this, just so they can see python that runs in the terminal.  
+I like this example using a list and looping over it with print statements.  
+
+![nano_8](img/nano/nano8.png)
 
 [Back to Outline](#outline)
 ## Run Python Program from Terminal
-run the python program from the terminal
+Now that we have our saved python program, we exit nano and go back to the terminal.  
+To run the python program, we use the command *python file_name*.  
+(I explain that this is similar to when we use *nano file_name* to run a file using nano.)
 
+![nano_9](img/nano/nano9.png)
 
+When we are finished with this portion, I show them how to clear out their terminal commands to be able to start something new with a clean terminal window.  
+The *clear* command removes all of the current commands and responses.
+
+![nano_10](img/nano/nano10.png)
+
+## History and Up Arrow
+If students want to see previous commands, they can go through them one at a time using the up arrow on the keyboard.  
+Also, the *history* command will show a list of all of the previous commands, so you can reference them.
 
 [Back to Outline](#outline)
 
