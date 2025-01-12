@@ -63,15 +63,54 @@ This lets them see that the new file is visiable in terminal as well.
 
 [Back to Outline](#outline)
 ## Intro to Nano
-intro to nano
+Using the text file that they created, I show them how to use a text editor from the terminal.  
+I use Nano in my classes.  VIM is a more professional terminal editor, but for my classes I keep it simple with nano.  
+
+First, I have them open their text file in nano.  (using *nano file_name.txt*)
+I point out that *nano* in this commands is running the nano program.
+
+![nano_1](img/nano/nano1.png)
+
+Once nano is open, I spend a lot of time explaining that we have "left the terminal" and are no in the nano editor just like opening VS Code or CodeHS Sandbox or any editor you use in class.  I also point out things that changed on the screen: the colors/theme, the header (File, Edit...), the footer (^G Help...)
+Then we edit the file by adding some text.
+
+![nano_2](img/nano/nano2.png)
 
 [Back to Outline](#outline)
 ## Edit Text File in Nano
-edit txt file in nano and save changes 
+
+Saving changes in nano is the most confusing aspect for new users, so I spend a lot of time on this.
+The footer of nano is basically the menu of options.  (^ strands for the control key)
+Control+G will take you to a Help page, Control+X will exit nano an take you back to the terminal...
+
+To save our changes, we need to "write" those changes to the file. 
+So we use Control+O for Write Out.
+
+After clicking Control+O, the footer changes and asks where we want to write our changes.
+I explain to students this is similar to Save As on a windows computer. We can change the name of the file that we want to save our changes to, or if we want to save them to the current file we just press Enter.  
+Just press Enter. 
+
+![nano_3](img/nano/nano3.png)
+
+After pressing Enter, nano lets us know how many lines were written to the file ("Wrote 2 Lines").  
+Once the changes are saved ("written out" to the file), I have them open the file to see their changes from the desktop. 
+
+![nano_4](img/nano/nano4.png)
+
+Then, we edit the file by adding another line to the text and save using Control+O then Enter.  
+After saving, we click on the text file again.  It gives us a pop up that something changed.  
+
+![nano_5](img/nano/nano5.png)
+
+We click Reload, and can see our changes.
+
+![nano_6](img/nano/nano6.png)
 
 [Back to Outline](#outline)
 ## Create a Python File
 create a python file
+
+![nano_7](img/nano/nano7.png)
 
 [Back to Outline](#outline)
 ## Edit Python File in Nano
