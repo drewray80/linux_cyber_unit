@@ -9,12 +9,12 @@ The purpose of this section is to provide an opportunity for learners to:
 ## Outline 
 - Raspberry Pi setup and intro to linux
 - [basic terminal commands](#basic-terminal-commands) and directory navigation 
-- create directory and text file on desktop
-- intro to nano
-- edit txt file in nano and save changes 
-- create a python file
-- edit python file in nano
-- run the python program from the terminal
+- [create a directory](#create-a-directory) and text file on desktop
+- [intro to nano](#intro-to-nano)
+- [edit text file in nano](#edit-text-file-in-nano) and save changes 
+- [create a python file](#create-a-python-file)
+- [edit python file in nano](#edit-python-file-i-nano)
+- [run the python program from the terminal](#run-python-program-from-terminal)
 
 ## Raspberry Pi Setup
 The first step that we take in this Linux/Cyber unit is to boot a raspberry pi linux desktop.  
@@ -63,18 +63,34 @@ This lets them see that the new file is visiable in terminal as well.
 ## Create a Directory 
 create directory and text file on desktop
 
+[Back to Outline](#outline)
 ## Intro to Nano
 intro to nano
 
+[Back to Outline](#outline)
 ## Edit Text File in Nano
 edit txt file in nano and save changes 
 
+[Back to Outline](#outline)
 ## Create a Python File
 create a python file
 
+[Back to Outline](#outline)
 ## Edit Python File in Nano
 edit python file in nano
 
+[Back to Outline](#outline)
 ## Run Python Program from Terminal
 run the python program from the terminal
+
+
+
+[Back to Outline](#outline)
+
+
+
+
+
+
+
 
