@@ -8,7 +8,7 @@ The purpose of this section is to provide an opportunity for learners to:
 
 ## Outline 
 - Raspberry Pi setup and intro to linux
-- basic terminal commands and directory navigation 
+- [basic terminal commands](#basic-terminal-commands) and directory navigation 
 - create directory and text file on desktop
 - intro to nano
 - edit txt file in nano and save changes 
@@ -40,13 +40,13 @@ ls, cd <*file or dir name*>, cd
 
 Then I have them navigate to their Desktop directory.
 Create a directory (*using mkdir*) on their desktop and cd into it.  
-It will appear where they can see it on the desktop.
-
-![basics 2](img/basics/basic2.png)
+It will appear where they can see it on the desktop.  
+<img style="float: right;" scr="img/basics/basic2.png">
+<!--![basics 2](img/basics/basic2.png)-->
 
 Then I have them open their new directory by double clicking on the desktop folder, so they can see the effects of our terminal commands.  
 
-![basics 3](img/basics/basic3.png)
+![basics 3 alt >](img/basics/basic3.png)
 
 Next, we use the *touch* command to create a text file in our directory.  
 This shows them how to create a file and gives us the most basic file to edit in the nano editor.
