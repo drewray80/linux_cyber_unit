@@ -7,7 +7,7 @@ The purpose of this section is to provide an opportunity for learners to:
 - use nano editor to edit .txt and .py files inside the terminal
 
 ## Outline 
-- Raspberry Pi setup and intro to linux
+- [Raspberry Pi setup](#raspberry-pi-setup) and intro to linux
 - [basic terminal commands](#basic-terminal-commands) and directory navigation 
 - [create a directory](#create-a-directory) and text file on desktop
 - [intro to nano](#intro-to-nano)
@@ -34,19 +34,21 @@ Once everyone has their pi running and are finished adjusting the preferences, I
 It is important for their terminal to be sized so that it only covers half of the screen (the right half).  This lets them see directories and files appear on the desktop as they create them.  
 With the terminal open, we go through a few basic commands for navigating the directories and files from the terminal. (If you are not familiar with linux commands, you can just search for they commands that are in my pictures to find more information.) 
 
-ls, cd <*file or dir name*>, cd
+ls, cd <*file or dir name*>, cd, cd .. (plus any other commands that you want to demonstrate)
 
 ![basics 1](img/basics/basic1.png)
+
+[Back to Outline](#outline)
+## Create a Directory 
 
 Then I have them navigate to their Desktop directory.
 Create a directory (*using mkdir*) on their desktop and cd into it.  
 It will appear where they can see it on the desktop.  
-<img style="float: right;" scr="img/basics/basic2.png">
-<!--![basics 2](img/basics/basic2.png)-->
+![basics 2](img/basics/basic2.png)
 
 Then I have them open their new directory by double clicking on the desktop folder, so they can see the effects of our terminal commands.  
 
-![basics 3 alt >](img/basics/basic3.png)
+![basics 3](img/basics/basic3.png)
 
 Next, we use the *touch* command to create a text file in our directory.  
 This shows them how to create a file and gives us the most basic file to edit in the nano editor.
@@ -58,10 +60,6 @@ I also have them us the *ls* command to list the items in the directory from the
 This lets them see that the new file is visiable in terminal as well. 
 
 ![basics 5](img/basics/basic5.png)
-
-[Back to Outline](#outline)
-## Create a Directory 
-create directory and text file on desktop
 
 [Back to Outline](#outline)
 ## Intro to Nano
