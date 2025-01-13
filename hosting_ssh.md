@@ -116,8 +116,10 @@ ssh basics
 edit and host html site using ssh, terminal and nano
 
 ![ssh_remote_1](img/ssh/ssh_remote1.png)
+![ssh_2](img/ssh/ssh2.png)
 ![ssh_remote_2](img/ssh/ssh_remote2.png)
 ![ssh_remote_3](img/ssh/ssh_remote3.png)
+![second_computer_viewing](img/ssh/second_computer_viewing.png)
 ![ssh_remote_4](img/ssh/ssh_remote4.png)
 ![ssh_remote_5](img/ssh/ssh_remote5.png)
 ![ssh_remote_6](img/ssh/ssh_remote6.png)
@@ -125,6 +127,8 @@ edit and host html site using ssh, terminal and nano
 ![ssh_remote_8](img/ssh/ssh_remote8.png)
 ![ssh_remote_9](img/ssh/ssh_remote9.png)
 ![ssh_remote_10](img/ssh/ssh_remote10.png)
+![ssh_shutdown_1](img/ssh/ssh_shutdown_1.png)
+![ssh_shutdown_2](img/ssh/ssh_shutdown2.png)
 
 [Back to Outline](#outline)
 ## History and Grading
