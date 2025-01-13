@@ -61,12 +61,16 @@ Then we use the *clear* command to clear the terminal to start the next steps.
 [Back to Outline](#outline)
 ## Local Hosting 
 Now that the students have a basic website, we host them locally in using an old home router that I have in my classroom.  
+
 I have the student connect their pis to the router. My router is not connected to the internet, so they get a notice of no internet.  I explain to them that we will just use the router to create a Local Area Network (LAN). Using a LAN lets the students host their sites and experience running a server without having to worry about COPPA and having browsers that do not require Safe Search.  
+
 Raspberry Pis are completely open, so I would strongly recommend using a LAN and not connecting pis to the internet.  
 This process creates a lot of opportunity for explanation and discussion about internet, routers, networks, COPPA...
+
 ![router](img/router.png)
 
 Once the students are connected to the router, I have the students look at their IP address by hovering over the internet connection.  
+
 We discuss IPv4 vs IPv6, how ip addresses work, why the first numbers are the same, that the router provides the ip...  
 (I am not going into a lot of detail on these discussions, because these instructions are already lengthy.  But, you should be able to find a lot of information about networking and ip addresses by searching the internet.)  
 
