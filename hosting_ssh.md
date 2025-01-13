@@ -15,6 +15,7 @@ The purpose of this section is to provide an opportunity for learners to:
 - [Static IPv4 Address](#static-ipv4-address) on a raspberry pi
 - [SSH Basics](#ssh-basics)
 - [Edit and Host Site Headlessly](#edit-and-host-site-headlessly) using ssh, terminal and nano
+- [History and Grading](#history-and-grading)
 
 ## Basic HTML
 create a basic html site 
@@ -73,7 +74,14 @@ edit and host html site using ssh, terminal and nano
 ![ssh_remote_10](img/ssh/ssh_remote10.png)
 
 [Back to Outline](#outline)
+## History and Grading
+Since students do not have access to the internet, submitting this assignment can be difficult.  
+I usually grade this assignment by having students show me their edited site while I walk around and check off their names on a list.  
+You could also have them show you their terminal command history by having them run the *history* command when they finish.  
 
+![history](img/history.png)
+
+[Back to Outline](#outline)
 
 
 
