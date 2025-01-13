@@ -29,6 +29,7 @@ I use Raspberry Pis for this unit, but any linux desktop should work.
 My predecessor had a class set of Raspberry Pi 3B+. Those are fine and are pis that are in the pictures.
 I have upgraded to RP 5 and the 5s are significantly faster making them easier to use.
 
+![raspberry_pi](img/raspberry_pi.png)
 ![raspberry_pi_desktop](img/raspberry_pi_desktop.png)
 
 If funding is an issue, you should be able to do this with any pi that has wifi and linux desktop.
