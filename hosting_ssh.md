@@ -60,15 +60,38 @@ Then we use the *clear* command to clear the terminal to start the next steps.
 
 [Back to Outline](#outline)
 ## Local Hosting 
-local hosting using python http.server
+Now that the students have a basic website, we host them locally in using an old home router that I have in my classroom.  
+I have the student connect their pis to the router. My router is not connected to the internet, so they get a notice of no internet.  I explain to them that we will just use the router to create a Local Area Network (LAN). Using a LAN lets the students host their sites and experience running a server without having to worry about COPPA and having browsers that do not require Safe Search.  
+Raspberry Pis are completely open, so I would strongly recommend using a LAN and not connecting pis to the internet.  
+This process creates a lot of opportunity for explanation and discussion about internet, routers, networks, COPPA...
+![router](img/router.png)
+
+Once the students are connected to the router, I have the students look at their IP address by hovering over the internet connection.  
+We discuss IPv4 vs IPv6, how ip addresses work, why the first numbers are the same, that the router provides the ip...  
+(I am not going into a lot of detail on these discussions, because these instructions are already lengthy.  But, you should be able to find a lot of information about networking and ip addresses by searching the internet.)  
+
+After they have seen their ip address, I have them host their site using python's built-in http.server.  
+(Python is preinstalled with all raspberry pi distros.)
+While inside the website directory, we use the command *python -m http.server* 
+This starts the server and serves their index.html page using the default port of 8000.
 
 ![hosting 1](img/hosting/hosting1.png)
-![hosting 2](img/hosting/hosting2.png)
-![hosting 3](img/hosting/hosting3.png)
 
 [Back to Outline](#outline)
 ## Viewing Locally Hosted Sites 
-viewing locally hosted sites 
+Once the server starts, I have them open a browser and type in the url of *their_ip:8000* and they should see their site.  
+Here I discuss ports, web addresses, DNS... But, in a basic way.
+
+I also point out that they can now see each others' sites by changing the url to someone else's ip address.  
+(they like seeing the other sites)  
+And I point out that they can see the traffic of the request to their server.  
+
+![hosting 2](img/hosting/hosting2.png)
+
+When we finish playing with this, which usually they like to play with it for a while.  
+I have them stop their server using Control+C and refresh their browser page, so they can see that the browser can no longer connect to their server.  
+
+![hosting 3](img/hosting/hosting3.png)
 
 [Back to Outline](#outline)
 ## Static IPv4 Address 
