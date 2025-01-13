@@ -142,6 +142,8 @@ The *clear* command removes all of the current commands and responses.
 If students want to see previous commands, they can go through them one at a time using the up arrow on the keyboard.  
 Also, the *history* command will show a list of all of the previous commands, so you can reference them.
 
+![history](img/history.png)
+
 [Back to Outline](#outline)
 
 
