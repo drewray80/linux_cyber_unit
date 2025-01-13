@@ -13,8 +13,8 @@ The purpose of this section is to provide an opportunity for learners to:
 - [Intro to Nano](#intro-to-nano)
 - [Edit Text File in Nano](#edit-text-file-in-nano) and save changes 
 - [Create a Python File](#create-a-python-file)
-- [Edit a Python File in Nano](#edit-python-file-in-nano)
-- [Run a Python Program from the Terminal](#run-python-program-from-terminal)
+- [Edit a Python File in Nano](#edit-a-python-file-in-nano)
+- [Run a Python Program from the Terminal](#run-a-python-program-from-the-terminal)
 
 ## Raspberry Pi Setup
 The first step that we take in this Linux/Cyber unit is to boot a raspberry pi linux desktop.  
