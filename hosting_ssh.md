@@ -18,18 +18,44 @@ The purpose of this section is to provide an opportunity for learners to:
 - [History and Grading](#history-and-grading)
 
 ## Basic HTML
-create a basic html site 
+In this activity, we host very basic websites remotely.  
+So the first step is to create a very basic website. 
+I have them start by creating a new directory for the site and cd into the directory.  
+In the previous activity for basic linux, we created files using *touch* then we used nano to edit it.  
+In this activity, I usually show them that if you nano into a file that does not exist, nano will create the file.  
+I have them nano into *index.html* to create a html file named index. I explain that web server look for index.html as the home page.  
+
 ![html 1](img/html/html1.png)
+
+Next, I have them create a very basic site in nano.  
+I explain the purpose of the boiler plate tags and that we are leaving a lot of boiler plate off.  
+(If your class has worked with html, I think it would be good to create a more full site. My course is a python programming course, so I just have them create the most basic site possible.)  
+Then, save their changes using Control+O.  
 
 ![html 2](img/html/html2.png)
 
 [Back to Outline](#outline)
 ## Viewing the Site
-viewing the site
+After the site is created and saved, I show them a couple of ways to view the site on their machine.  
+I start by having them open the site from the desktop by clicking on the website directory then double clicking on the html file.  
+If your pis are low powered like my raspberry pi 3B+, this the sites can be slow to open.  
 
 ![html 3](img/html/html3.png)
+
+Next, I have them close that browser.  
+Then, they launch the browser and site from the terminal using the *firefox index.html* command  
+(they must be in the site directory for firefox to find it)  
+I explain that firefox in a program and using the *firefox* command is just like starting a command with *nano* or *python*.  
+
 ![html 4](img/html/html4.png)
+
+After they open their site with *firefox*, the terminal will be running that site and nothing else. (we discuss this too)  
+To close the site and get back to the regular terminal, we use Control+C to kill the process. (we discuss using Control+C to end processes)  
+
 ![html 5](img/html/html5.png)
+
+Then we use the *clear* command to clear the terminal to start the next steps. 
+
 ![html 6](img/html/html6.png)
 
 [Back to Outline](#outline)
