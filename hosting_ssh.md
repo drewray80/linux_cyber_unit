@@ -119,7 +119,7 @@ edit and host html site using ssh, terminal and nano
 ![ssh_2](img/ssh/ssh2.png)
 ![ssh_remote_2](img/ssh/ssh_remote2.png)
 ![ssh_remote_3](img/ssh/ssh_remote3.png)
-![second_computer_viewing](img/ssh/second_computer_view.png)
+![second_computer_view](img/ssh/second_computor_view.png)
 ![ssh_remote_4](img/ssh/ssh_remote4.png)
 ![ssh_remote_5](img/ssh/ssh_remote5.png)
 ![ssh_remote_6](img/ssh/ssh_remote6.png)
