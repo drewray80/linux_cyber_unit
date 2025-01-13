@@ -29,6 +29,8 @@ I use Raspberry Pis for this unit, but any linux desktop should work.
 My predecessor had a class set of Raspberry Pi 3B+. Those are fine and are pis that are in the pictures.
 I have upgraded to RP 5 and the 5s are significantly faster making them easier to use.
 
+![raspberry_pi_desktop](img/raspberry_pi_desktop)
+
 If funding is an issue, you should be able to do this with any pi that has wifi and linux desktop.
 I believe even a Pi Zero W would work, but I haven't tested it.  Pico might not have a desktop.
 
@@ -37,12 +39,16 @@ Each pi needs a microSD card to hold the operating system.
 I assignment each student their own microSD, so they have the opportunity to have their own os.
 They keep their card in a numbered card case. They install them at the beginning of class and remove it at the end.  This is ideal if possible.  If they share microSD cards, the second student will not get to do some of the set up.
 
+![microSD_cards](img/microSD_cards)
+
 ### Monitor, keyboard, mouse
 We connect the pis to the monitor, keyboard and mouse that is already at their desk.
 
 ### Home Router
 We use an old home router to create a LAN (local area network) to locally host their simple websites.
 I do not connect this router to the internet. This eliminates COPPA compliance concerns, because the browsers in a raspberry pi will not have safe search required.  And you will not need internet for this unit.
+
+![home_router](img/router)
 
 ## Linux Basics and Nano
 Details for this section are in linux_basics_nano.md
