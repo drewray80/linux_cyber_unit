@@ -18,6 +18,7 @@ The purpose of this section is to provide an opportunity for learners to:
 
 ## Raspberry Pi Setup
 The first step that we take in this Linux/Cyber unit is to boot a raspberry pi linux desktop.  
+[raspberrypi.org](https://raspberrypi.org) has lots of resources if you are not familiar with raspberry pis.  
 It can take a few minutes to boot and setup the pis and some students will have more trouble with this than others.  
 I let students know that they can change their desktop preferences in anyway they like.  This gives the students something to do while other students are getting theirs setup.  And I have found that all students like to change background images, fonts...
 
@@ -27,6 +28,7 @@ This is initial screen that comes up when they boot the desktop.
 This is my desktop after I change the preferences. (I show mine to my students.)
 ![my preferences](/img/my_preferences.png)
 
+[Back to Outline](#outline)
 ## Basic Terminal Commands
 Once everyone has their pi running and are finished adjusting the preferences, I have them open a terminal window.  I spend some time explaining that the terminal how we control a computer without having to build a GUI or desktop.  And that if we access a computer remotely like a server, the terminal is the only interface that we will see.  
 (We do activity for remoting into their pis using ssh, so I let them know that they will be using only the terminal very soon.)
