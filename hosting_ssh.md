@@ -92,6 +92,10 @@ And I point out that they can see the traffic of the request to their server.
 
 ![hosting 2](img/hosting/hosting2.png)
 
+This picture show me accessing the site from another computer.  
+
+![second_computer_view](img/ssh/second_computor_view.png)
+
 When we finish playing with this, which usually they like to play with it for a while.  
 I have them stop their server using Control+C and refresh their browser page, so they can see that the browser can no longer connect to their server.  
 
@@ -101,12 +105,14 @@ I have them stop their server using Control+C and refresh their browser page, so
 ## Static IPv4 Address 
 You will need to know the IPv4 address of your pi in order to get remote access to its terminal through ssh.  
 The router assigns IPv4 addresses to devices that connect to it. The IPv6 address is provided by your internet provider, but we are not connecting to the internet so we will only be dealing with IPv4.  
+This is a good opportunity to discuss IPv4 and IPv6.  
 
 Your router will also change ip addresses of device periodically for security reasons.  
 This creates an issue for headless access. If the ip address changes, you will need to find the new ip to be able to use ssh.  
 
 To solve this issue, we can set a static ip address for the pi. 
-Then the pi will communicate its static ip to the router when it connects. If that ip is available, the router will use that ip for the pi.
+Then the pi will communicate its static ip to the router when it connects. If that ip is available, the router will use that ip for the pi.  
+This is a good time to discuss static ip addresses.  
 
 To set a static ip on a pi, click on the wifi icon on the taskbar of the pi and select Network Connections.  
 Select your router. (the example in the picture is NETGEAR73)  
@@ -134,27 +140,109 @@ After we save the static ip address, I have the students restart their pis to ma
 
 [Back to Outline](#outline)
 ## SSH Basics 
-ssh basics
+In order to remote into your pi using ssh (**s**ecure **sh**ell), you need to enable ssh on your pi.  
+Go to the raspberry icon that is located where the start menu would be, and select Raspberry Pi Configuration.  
+Go to the Interfaces tab, then toggle on SSH.  
 
 ![ssh_1](img/ssh/ssh1.png)
 
+This does make your pi vulnerable because it allows remote access, but we are not connecting them to the internet.  
+This is a good time to discuss security and making sure you change default passwords for devices.  
+
 [Back to Outline](#outline)
 ## Edit and Host Site Headlessly 
-edit and host html site using ssh, terminal and nano
+Secure Shell (ssh) allows us to access the terminal of the pi.  
+We can do anything that we would from the terminal, but we will not see the desktop.  
+Accessing only the terminal or command line without a desktop is typical for accessing servers or remote machines.  
+
+To be able to ssh, your students will need to have terminal or command line (Windows name for terminal) accesses for a device.  
+Schools usually do not allow students to have command line or terminal access. We have my computer on a VLAN so that we can give them command line access. If you are not able to do that, you could ssh from another raspberry pi to access the pi with their website on it.  
+On you could skip this portion of the unit. Even without ssh, the prior sections have given them practice with linux, running a server, html, ip addresses...
+
+For the rest of this section, I will show you how we use ssh from PowerShell on our Windows computers to run our website server on our raspberry pi. 
+In class, we power on the pis, but do not connect a monitor, mouse or keyboard to them.  
+
+To ssh into the pi, the other device must also be on the same network as the pi, so connect it to the router.  
+Open Windows PowerShell, or a terminal on a Mac or other raspberry pi.  
+Enter the command *ssh your_user_name@your_ip_address*, then hit enter.  
+The user name and password are the credentials that you set when you setup the pi.  
+
+You will see a statement about a fingerprint (the pi will remember which devices remotely accessed it by saving a fingerprint). 
+You need to answer *yes* to the question about continuing to connect.
+
+Then it will ask for your password to the pi.  
+**When you type in your password, the curser will not move but it is taking the password.**  
+This is for security. It will feel like you are entering the password blindly.  
+
+Next, you will see some information about Linux and raspberry pi. 
+Then you should see your raspberry pi terminal begin and it will look just like your terminal in the pi.  
+This is because it is the terminal in your pi.  
 
 ![ssh_remote_1](img/ssh/ssh_remote1.png)
+
+This picture shows my pi running with a monitor and the laptop that I used to ssh into that pi.  
+
 ![ssh_2](img/ssh/ssh2.png)
+
+Now that I am in my pi's terminal, I can run the command to start my website server.  
+*cd* into the directory with your html file.  
+Then use the command *python -m http.server* to start the server.  
+
 ![ssh_remote_2](img/ssh/ssh_remote2.png)
+
+Just like before, we can now see the website by going to the url *your_ip_address:8000*.  
+I do this from the browser on my Windows computer.  
+
 ![ssh_remote_3](img/ssh/ssh_remote3.png)
-![second_computer_view](img/ssh/second_computor_view.png)
+
+Now that we have started a server remotely through ssh, I have them update their site remotely.  
+First, I have them stop the server using Control+C.  
+Then I have them open their html file using nano.  
+
 ![ssh_remote_4](img/ssh/ssh_remote4.png)
+
+They change something on the site. (I like to have them add today's date)  
+Then save their changes and exit nano.  
+Control+O > Enter > Control+X 
+
 ![ssh_remote_5](img/ssh/ssh_remote5.png)
+
+Once they are back in the terminal, they can restart the server using *python -m http.server* and refresh their browser to see the changes.  
+At this point, I usually walk around and give them a grade for completing the assignment.  
+
 ![ssh_remote_6](img/ssh/ssh_remote6.png)
+
+Then I have them stop the server using Control+C and refresh their browser.  
+This shows them that the website will not load if the server is not running.  
+
 ![ssh_remote_7](img/ssh/ssh_remote7.png)
+
+Now that they are finished, they need to shutdown their pi.  
+It is bad for any computer to just pull the plug, so we need to use the *shutdown* command in the terminal.  
+For security reasons, only authorised users can shutdown a pi remotely.  
+
 ![ssh_remote_8](img/ssh/ssh_remote8.png)
+
+To show that they are an authorised user, they must use the command *sudo shutdown* .  
+If you are not familiar with sudo, you should be able to find information about sudo in linux on the internet.  
+At this point, we discuss sudo and authorisation in relation to security.  
+
 ![ssh_remote_9](img/ssh/ssh_remote9.png)
+
+The default for *sudo shutdown* is to shutdown in 2 minutes.  
+You can also use *sudo shutdown now* to have the pi shutdown immediately. 
+
 ![ssh_remote_10](img/ssh/ssh_remote10.png)
+
+Once the pi is shutdown, the ssh connection will be lost and the computer will go back to its PowerShell or terminal.  
+You can see in the picture that I lost connection and my Windows PowerShell is back up.  
+
 ![ssh_shutdown_1](img/ssh/ssh_shutdown_1.png)
+
+This picture shows that my pi is now powered off.  
+In class, we connect remotely, so the students don't see the pi power off on a screen.  
+But they will see that the little green light in the pi will turn to red indicating that it is shutdown.  
+
 ![ssh_shutdown_2](img/ssh/ssh_shutdown2.png)
 
 [Back to Outline](#outline)
