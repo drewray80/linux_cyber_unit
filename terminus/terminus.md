@@ -8,9 +8,9 @@ The game is a choose your own adventure text based game.
 The questions in the documents prompt the students to move through the game to answer the questions.  
 It looks like a terminal on the left side of the screen and shows pixel art on the right side.  
 
-![SpellCastingAcademy](./img/terminus/SpellCastingAcademy.png)
+![SpellCastingAcademy](../img/terminus/SpellCastingAcademy.png)
 
-![HurryingStudent](./img/terminus/HurryingStudent.png)
+![HurryingStudent](../img/terminus/HurryingStudent.png)
 
 
 ## Cyber.org  
