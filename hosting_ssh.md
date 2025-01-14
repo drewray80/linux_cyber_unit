@@ -99,11 +99,38 @@ I have them stop their server using Control+C and refresh their browser page, so
 
 [Back to Outline](#outline)
 ## Static IPv4 Address 
-setting a static IPv4 address on a raspberry pi
+You will need to know the IPv4 address of your pi in order to get remote access to its terminal through ssh.  
+The router assigns IPv4 addresses to devices that connect to it. The IPv6 address is provided by your internet provider, but we are not connecting to the internet so we will only be dealing with IPv4.  
+
+Your router will also change ip addresses of device periodically for security reasons.  
+This creates an issue for headless access. If the ip address changes, you will need to find the new ip to be able to use ssh.  
+
+To solve this issue, we can set a static ip address for the pi. 
+Then the pi will communicate its static ip to the router when it connects. If that ip is available, the router will use that ip for the pi.
+
+To set a static ip on a pi, click on the wifi icon on the taskbar of the pi and select Network Connections.  
+Select your router. (the example in the picture is NETGEAR73)  
+Then click the settings gear icon.  
 
 ![static_ip_1](img/static_ip/static_ip1.png)
+
+Select the IPv4 Settings tab. 
+Change the Method to Manual.  
+Click the Add button.
+
 ![static_ip_2](img/static_ip/static_ip2.png)
+
+I have students add their current ip address, netmask and gateway to lock in their current ip address.  
+Their ip address can be found by hovering over the wifi icon. (it probably starts with 192.168.  )  
+The Netmask should prefill for you. (it is probably 24 or 22)  
+The Gateway can be found by running the *route* command in the terminal.  
+
+You may need to do some experimenting or research to get the correct netmask and gateway for your router.  
+But, those should be the same for all the devices on your router. So once you find the correct numbers, they should be the same for everyone.  
+
 ![static_ip_3](img/static_ip/static_ip3.png)
+
+After we save the static ip address, I have the students restart their pis to make sure the ip address stayed and that it seems to function ok without errors.
 
 [Back to Outline](#outline)
 ## SSH Basics 
