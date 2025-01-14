@@ -237,7 +237,7 @@ You can also use *sudo shutdown now* to have the pi shutdown immediately.
 Once the pi is shutdown, the ssh connection will be lost and the computer will go back to its PowerShell or terminal.  
 You can see in the picture that I lost connection and my Windows PowerShell is back up.  
 
-![ssh_shutdown_1](img/ssh/ssh_shutdown_1.png)
+![ssh_shutdown_1](img/ssh/ssh_shutdown1.png)
 
 This picture shows that my pi is now powered off.  
 In class, we connect remotely, so the students don't see the pi power off on a screen.  
