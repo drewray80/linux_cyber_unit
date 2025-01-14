@@ -14,8 +14,8 @@ This repro is a general discription of that unit.
 
 ## Hardware
 Teachers often make the most of the equipment that is available to them.  
-This is the equipment that I use. 
-If you ave different equipment, I hope you will be able to adapt these instructions to suit your needs.
+This is the equipment that I use.  
+If you ave different equipment, I hope you will be able to adapt these instructions to suit your needs.  
 
 For these specific instructions, I use:
 - Raspberry Pis
@@ -26,18 +26,18 @@ For these specific instructions, I use:
 
 ### Raspberry Pi  [raspberrypi.org](https://www.raspberrypi.org)
 I use Raspberry Pis for this unit, but any linux desktop should work.  
-My predecessor had a class set of Raspberry Pi 3B+. Those are fine and are pis that are in the pictures.
-I have upgraded to RP 5 and the 5s are significantly faster making them easier to use.
+My predecessor had a class set of Raspberry Pi 3B+. Those are fine and are pis that are in the pictures.  
+I have upgraded to RP 5 and the 5s are significantly faster making them easier to use.  
 
 ![raspberry_pi](img/raspberry_pi.png)
 
-If funding is an issue, you should be able to do this with any pi that has wifi and linux desktop.
-I believe even a Pi Zero W would work, but I haven't tested it.  Pico might not have a desktop.
+If funding is an issue, you should be able to do this with any pi that has wifi and linux desktop.  
+I believe even a Pi Zero W would work, but I haven't tested it.  Pico might not have a desktop.  
 
 ### MicroSD Cards
 Each pi needs a microSD card to hold the operating system.  
-I assignment each student their own microSD, so they have the opportunity to have their own os.
-They keep their card in a numbered card case. They install them at the beginning of class and remove it at the end.  This is ideal if possible.  If they share microSD cards, the second student will not get to do some of the set up.
+I assignment each student their own microSD, so they have the opportunity to have their own os.  
+They keep their card in a numbered card case. They install them at the beginning of class and remove it at the end. This is ideal if possible. If they share microSD cards, the second student will not get to do some of the set up.
 
 ![microSD_cards](img/microSD_cards.png)
 
@@ -47,13 +47,14 @@ We connect the pis to the monitor, keyboard and mouse that is already at their d
 ![raspberry_pi_desktop](img/raspberry_pi_desktop.png)
 
 ### Home Router
-We use an old home router to create a LAN (local area network) to locally host their simple websites.
-I do not connect this router to the internet. This eliminates COPPA compliance concerns, because the browsers in a raspberry pi will not have safe search required.  And you will not need internet for this unit.
+We use an old home router to create a LAN (local area network) to locally host their simple websites.  
+I do not connect this router to the internet. This eliminates COPPA compliance concerns, because the browsers in a raspberry pi will not have safe search required. And you will not need internet for this unit.
 
 ![home_router](img/router.png)
 
 ## Linux Basics and Nano
-Details for this section are in linux_basics_nano.md
+Details for this section are in linux_basics_nano.md  
+
 The purpose of this section is to provide an opportunity for learners to: 
 - play around with linux desktop by editing their preferences...
 - begin using some basic terminal commands (ls, cd, mkdir, touch...)
@@ -61,8 +62,9 @@ The purpose of this section is to provide an opportunity for learners to:
 - use nano editor to edit .txt and .py files inside the terminal
 
 ## Hosting an SSH  
-Details for this section are in hosting_ssh.md
-The purpose of this section is to provide an opportunity for learners to:
+Details for this section are in hosting_ssh.md  
+
+The purpose of this section is to provide an opportunity for learners to:  
 - learn about servers and clients through locally hosting a website
 - learn about IP address (IPv4, IPv6, DNS, static IP addresses...)
 - experience headless access to a linux terminal through ssh
@@ -70,8 +72,8 @@ The purpose of this section is to provide an opportunity for learners to:
 - also it's fun for them to make a simple site that their classmates can pull up on their pi
 
 ## Terminus 
-In the terminus directory is a file terminus.md, that has additional information.
-The directory also has files with directions for this activity.
+In the terminus directory is a file terminus.md, that has additional information.  
+The directory also has files with directions for this activity.  
 
 ![SpellCastingAcademy](img/terminus/SpellCastingAcademy.png)
 
@@ -80,9 +82,9 @@ The directory also has files with directions for this activity.
 TryHackMe is great resource for learning about cyber security.
 
 ### Instruction  
-The presentation of the website is user freindly and visually appealing.
-They provide instruction sections that are clear and approachable for beginners. 
-They offer learning paths that can help learners align their learning with their goals.
+The presentation of the website is user freindly and visually appealing.  
+They provide instruction sections that are clear and approachable for beginners.  
+They offer learning paths that can help learners align their learning with their goals.  
 
 ### Virtual Machines  
 The challenges provide hands on learning using virtual machines (VMs) with linux and Windows machines allowing learners to experience both sides of attacks and defense.  
@@ -90,12 +92,12 @@ These activities are very realistic and very engaging for students.
 Since my students have gained some linux experience, they are able to confidently jump into these activities.  
 
 ### Cost  
-To provide this level of quality, TryHackMe does have a pay level and a free level.
+To provide this level of quality, TryHackMe does have a pay level and a free level.  
 The free level is limited on use time per day and access to some lessons.  
 I just use the free level, since the course that I teach is not cyber security.  
 
 If I taught cyber security with upper level students, I would strongly consider getting the paid level.    
-It is very expensive, but the quality is much better than any other education platform for cyber that I have used. 
+It is very expensive, but the quality is much better than any other education platform for cyber that I have used.  
 
 ![TryHackMe](img/tryhackme/TryHackMe.png)
 
