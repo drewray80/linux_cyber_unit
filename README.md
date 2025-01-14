@@ -30,7 +30,6 @@ My predecessor had a class set of Raspberry Pi 3B+. Those are fine and are pis t
 I have upgraded to RP 5 and the 5s are significantly faster making them easier to use.
 
 ![raspberry_pi](img/raspberry_pi.png)
-![raspberry_pi_desktop](img/raspberry_pi_desktop.png)
 
 If funding is an issue, you should be able to do this with any pi that has wifi and linux desktop.
 I believe even a Pi Zero W would work, but I haven't tested it.  Pico might not have a desktop.
@@ -44,6 +43,8 @@ They keep their card in a numbered card case. They install them at the beginning
 
 ### Monitor, keyboard, mouse
 We connect the pis to the monitor, keyboard and mouse that is already at their desk.
+
+![raspberry_pi_desktop](img/raspberry_pi_desktop.png)
 
 ### Home Router
 We use an old home router to create a LAN (local area network) to locally host their simple websites.
