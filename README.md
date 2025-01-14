@@ -73,6 +73,9 @@ The purpose of this section is to provide an opportunity for learners to:
 In the terminus directory is a file terminus.md, that has additional information.
 The directory also has files with directions for this activity.
 
+![SpellCastingAcademy](img/terminus/SpellCastingAcademy.png)
+
+
 ## TryHackMe  [tryhackme.com](https://tryhackme.com) 
 TryHackMe is great resource for learning about cyber security.
 
@@ -94,6 +97,7 @@ I just use the free level, since the course that I teach is not cyber security.
 If I taught cyber security with upper level students, I would strongly consider getting the paid level.    
 It is very expensive, but the quality is much better than any other education platform for cyber that I have used. 
 
+![TryHackMe](img/tryhackme/TryHackMe.png)
 
 
 
